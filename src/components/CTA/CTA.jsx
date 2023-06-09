@@ -49,7 +49,7 @@ const CTA = () => {
         msg: msg
       };
   
-      const response = await axios.post('http://127.0.0.1:8000/api/send-email', formData);
+      const response = await axios.post('https://kaleem-backend.000webhostapp.com/api/send-email', formData);
       console.log(response.data);
       toast.success("Email is sent succefully");
       setName(''); // Clear the name input
