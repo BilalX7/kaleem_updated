@@ -367,7 +367,7 @@ const Books = () => {
     try {
       const zakaria = value;
       console.log(zakaria);
-      const response = await axios.post("http://127.0.0.1:8000/api/categories", {category: zakaria});
+      const response = await axios.post("https://kaleem-backend.000webhostapp.com/api/categories", {category: zakaria});
       console.log(response.data);
       setCategory(response.data);
     } catch (error) {
