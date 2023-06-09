@@ -13,7 +13,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from 'react-toastify'
 // import { useTranslation } from 'react-i18next'
-
+import instance from '../api_instance'
 
 
 // /send-email
@@ -48,8 +48,16 @@ const CTA = () => {
         email: email,
         msg: msg
       };
-  
-      const response = await axios.post('https://kaleem-backend.000webhostapp.com/api/send-email', formData);
+    //   const response = await instance({
+    //         url:'send-email',
+    //         method:'POST',
+    //         data:{
+    //         "category":this.state.category
+    //         }
+    //   })
+      const response = await instance.post('send-email', formData);
+      
+    //   const response = await axios.post('https://kaleem-backend.000webhostapp.com/api/send-email', formData);
       console.log(response.data);
       toast.success("Email is sent succefully");
       setName(''); // Clear the name input
