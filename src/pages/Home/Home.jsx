@@ -2,7 +2,7 @@
 import './Home.css';
 import styles from '../../style';
 import { Hero, Stats, WhyArabic, Services,
-    Cards, Testimonials, CTA, Footer, WhyKaleem }  from '../../components';
+    Cards, Testimonials, CTA, Footer, WhyKaleem, Books }  from '../../components';
 
 const Home = () => {
   return (
@@ -20,8 +20,8 @@ const Home = () => {
           <WhyArabic />
           <Services />
           <WhyKaleem />
+          <Books />
           <Testimonials />
-          {/* <Books /> */}
         </div>
       </div>
 
