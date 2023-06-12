@@ -397,7 +397,7 @@ const Books = () => {
               name= {book.name}
               author= {book.author}
               pdf= {book.pdf}
-              imgs = {"http://127.0.0.1:8000/storage/"+book.imgs}
+              imgs = {"https://kaleem-backend.000webhostapp.com/storage/"+book.imgs}
           />
         )} )}
       </div>
@@ -431,7 +431,7 @@ const Books = () => {
                 name= {book.name}
                 author= {book.author}
                 pdf= {book.pdf}
-                imgs = {"http://127.0.0.1:8000/storage/"+book.imgs}
+                imgs = {"https://kaleem-backend.000webhostapp.com/storage/"+book.imgs}
               />
             ))}
           </div>
@@ -499,7 +499,7 @@ const Books = () => {
             name= {book.name}
             author= {book.author}
             pdf= {book.pdf}
-            imgs = {"http://127.0.0.1:8000/storage/"+book.imgs}
+            imgs = {"https://kaleem-backend.000webhostapp.com/storage/"+book.imgs}
             />
             )})}
         </div>
@@ -530,7 +530,7 @@ const Books = () => {
             name= {book.name}
             author= {book.author}
             pdf= {book.pdf}
-            imgs = {"http://127.0.0.1:8000/storage/"+book.imgs}
+            imgs = {"https://kaleem-backend.000webhostapp.com/storage/"+book.imgs}
             />
           )})}
         </div>
@@ -561,7 +561,7 @@ const Books = () => {
             name= {book.name}
             author= {book.author}
             pdf= {book.pdf}
-            imgs = {"http://127.0.0.1:8000/storage/"+book.imgs}
+            imgs = {"https://kaleem-backend.000webhostapp.com/storage/"+book.imgs}
             />
           )})}
         </div>
