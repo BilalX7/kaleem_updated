@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: {
     proxy: {
-      '/api': 'ttps://kaleem-backend.000webhostapp.com'
+      '/api': 'https://kaleem-backend.000webhostapp.com'
     }
   },
   plugins: [react()],
